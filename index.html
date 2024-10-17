@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dark Themed Manhwa Library</title>
+</head>
+<body>
+    <header>
+        <h1>Manhwa Library</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#genres">Genres</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    <main id="content">
+        <input type="text" id="search" placeholder="Search manhwa..." aria-label="Search manhwa">
+        <select id="genre-filter" aria-label="Filter by genre">
+            <option value="">All Genres</option>
+            <option value="action">Action</option>
+            <option value="romance">Romance</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="horror">Horror</option>
+        </select>
+        <div id="manhwa-list"></div>
+        <button id="load-more">Load More</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Manhwa Site</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
